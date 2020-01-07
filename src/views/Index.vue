@@ -4,9 +4,9 @@
     input(v-model="text")
     p Long DateTime: {{ $d(new Date(), 'long') }}
     p Short DateTime: {{ $d(new Date()) }}
-    p Vuex localeStore counter: {{ counter }}
+    p Vuex localStorage counter: {{ counter }}
     button(@click.stop="counter++") Increment
-    button(@click.stop="counter--") decrement
+    button(@click.stop="counter--") Decrement
     button(@click.stop="delCounter") Delete
 </template>
 
