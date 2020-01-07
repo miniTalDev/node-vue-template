@@ -1,10 +1,10 @@
 import { RouteConfig } from 'vue-router'
 
-const route: RouteConfig[] = [
+const routes: RouteConfig[] = [
   {
     path: '/',
     component: () => import('@/views/Index.vue')
   }
 ]
 
-export default route
+export default routes
