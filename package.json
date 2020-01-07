@@ -1,0 +1,49 @@
+{
+  "name": "node-vue-template",
+  "version": "0.0.1",
+  "description": "A frontend template for vue development",
+  "repository": "https://github.com/lgou2w/node-vue-template.git",
+  "author": "lgou2w <lgou2w@hotmail.com>",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "clean": "node scripts/clean"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "core-js": "^3.6.2",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.1.0",
+    "vue-i18n": "^8.15.3",
+    "vue-property-decorator": "^8.3.0",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.2",
+    "vuex-class": "^0.3.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/nprogress": "^0.2.0",
+    "@vue/cli-plugin-babel": "^4.1.2",
+    "@vue/cli-plugin-eslint": "^4.1.2",
+    "@vue/cli-plugin-router": "^4.1.2",
+    "@vue/cli-plugin-typescript": "^4.1.2",
+    "@vue/cli-plugin-vuex": "^4.1.2",
+    "@vue/cli-service": "^4.1.2",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "sass": "^1.24.2",
+    "sass-loader": "^8.0.0",
+    "sass-resources-loader": "^2.0.1",
+    "typescript": "~3.5.3",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
