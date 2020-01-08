@@ -29,7 +29,7 @@ module.exports = {
   devServer: {
     proxy: {
       '/api': {
-        target: 'https://example.com',
+        target: process.env.VUE_APP_BASE_API,
         changeOrigin: true,
         pathRewrite: {
           '^/api': '/api'
