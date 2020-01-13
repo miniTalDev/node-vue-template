@@ -9,6 +9,7 @@ A frontend template for vue development
     * Pug (Html Template)
     * Component with Class style
     * Fully modular
+    * Build with external CDN library
 
 * Default dependencies
     * Vue 2
