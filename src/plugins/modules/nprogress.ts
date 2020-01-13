@@ -1,6 +1,9 @@
 import { Plugin } from '../defined'
 import nprogress from 'nprogress'
-import 'nprogress/nprogress.css'
+
+if (process.env.NODE_ENV !== 'production' || process.env.VUE_APP_EXTERNAL_CDN !== 'true') {
+  require('nprogress/nprogress.css')
+}
 
 nprogress.inc(0.2)
 nprogress.configure({

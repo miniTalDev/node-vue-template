@@ -18,7 +18,9 @@ import * as types from '@/store/mutation-types'
 
 const globalModule = namespace('global')
 
-@Component
+@Component({
+  name: 'index'
+})
 export default class Index extends Vue {
   text: string | null = 'HelloWorld!'
 
