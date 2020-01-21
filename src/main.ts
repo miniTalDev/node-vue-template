@@ -7,7 +7,7 @@ import locale from './locale'
 import plugins from './plugins'
 import pkg from '../package.json'
 
-import '@/styles/global.scss'
+import '@/styles/global.sass'
 
 Vue.config.productionTip = false
 Vue.prototype.$api = api

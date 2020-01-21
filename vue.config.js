@@ -57,7 +57,7 @@ module.exports = {
           .loader('sass-resources-loader')
           .options({
             resources: [
-              path.resolve(__dirname, './src/styles/var.scss')
+              path.resolve(__dirname, './src/styles/var.sass')
             ]
           })
           .end()
