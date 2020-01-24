@@ -1646,10 +1646,10 @@ axios@*:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
 
-axios@^0.19.1:
-  version "0.19.1"
-  resolved "https://registry.npm.taobao.org/axios/download/axios-0.19.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.19.1.tgz#8a6a04eed23dfe72747e1dd43c604b8f1677b5aa"
-  integrity sha1-imoE7tI9/nJ0fh3UPGBLjxZ3tao=
+axios@^0.19.2:
+  version "0.19.2"
+  resolved "https://registry.npm.taobao.org/axios/download/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha1-PqNsXYgY0NX4qKl6bTa4bNwAyyc=
   dependencies:
     follow-redirects "1.5.10"
 
@@ -2583,10 +2583,10 @@ core-js@^3.4.4:
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.6.2.tgz#2799ea1a59050f0acf50dfe89b916d6503b16caa"
   integrity sha1-J5nqGlkFDwrPUN/om5FtZQOxbKo=
 
-core-js@^3.6.3:
-  version "3.6.3"
-  resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.6.3.tgz#cebda69dd069bf90066414d2b2425ffd1f3dcd79"
-  integrity sha1-zr2mndBpv5AGZBTSskJf/R89zXk=
+core-js@^3.6.4:
+  version "3.6.4"
+  resolved "https://registry.npm.taobao.org/core-js/download/core-js-3.6.4.tgz?cache=0&sync_timestamp=1578957195899&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js%2Fdownload%2Fcore-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
+  integrity sha1-RAqDU2tFgRS5yyrBWAujd9xHBkc=
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -7346,16 +7346,16 @@ safe-regex@^1.1.0:
   resolved "https://registry.npm.taobao.org/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
-sass-loader@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.npm.taobao.org/sass-loader/download/sass-loader-8.0.1.tgz#46cc2bc90de9ed0a121d023800a32049215fb57c"
-  integrity sha1-RswryQ3p7QoSHQI4AKMgSSFftXw=
+sass-loader@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.npm.taobao.org/sass-loader/download/sass-loader-8.0.2.tgz#debecd8c3ce243c76454f2e8290482150380090d"
+  integrity sha1-3r7NjDziQ8dkVPLoKQSCFQOACQ0=
   dependencies:
     clone-deep "^4.0.1"
     loader-utils "^1.2.3"
     neo-async "^2.6.1"
     schema-utils "^2.6.1"
-    semver "^7.1.1"
+    semver "^6.3.0"
 
 sass-resources-loader@^2.0.1:
   version "2.0.1"
@@ -7367,10 +7367,10 @@ sass-resources-loader@^2.0.1:
     glob "^7.1.1"
     loader-utils "^1.0.4"
 
-sass@^1.24.4:
-  version "1.24.4"
-  resolved "https://registry.npm.taobao.org/sass/download/sass-1.24.4.tgz#aa50575a9ed2b9e9645b5599156fd149bdad9eaa"
-  integrity sha1-qlBXWp7SuelkW1WZFW/RSb2tnqo=
+sass@^1.25.0:
+  version "1.25.0"
+  resolved "https://registry.npm.taobao.org/sass/download/sass-1.25.0.tgz#f8bd7dfbb39d6b0305e27704a8ebe637820693f3"
+  integrity sha1-+L19+7OdawMF4ncEqOvmN4IGk/M=
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
@@ -7427,11 +7427,6 @@ semver@^6.0.0, semver@^6.1.0, semver@^6.3.0:
   version "6.3.0"
   resolved "https://registry.npm.taobao.org/semver/download/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0=
-
-semver@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.npm.taobao.org/semver/download/semver-7.1.1.tgz#29104598a197d6cbe4733eeecbe968f7b43a9667"
-  integrity sha1-KRBFmKGX1svkcz7uy+lo97Q6lmc=
 
 send@0.17.1:
   version "0.17.1"
@@ -8558,10 +8553,10 @@ vue-class-component@^7.1.0:
   resolved "https://registry.npm.taobao.org/vue-class-component/download/vue-class-component-7.1.0.tgz#b33efcb10e17236d684f70b1e96f1946ec793e87"
   integrity sha1-sz78sQ4XI21oT3Cx6W8ZRux5Poc=
 
-vue-class-component@^7.2.1:
-  version "7.2.1"
-  resolved "https://registry.npm.taobao.org/vue-class-component/download/vue-class-component-7.2.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-class-component%2Fdownload%2Fvue-class-component-7.2.1.tgz#5aa0d6aef4c42aec801c53feb2937a322d3270f9"
-  integrity sha1-WqDWrvTEKuyAHFP+spN6Mi0ycPk=
+vue-class-component@^7.2.2:
+  version "7.2.2"
+  resolved "https://registry.npm.taobao.org/vue-class-component/download/vue-class-component-7.2.2.tgz#aecc6d28801f64c61eb04407cf3a5476da26b0c0"
+  integrity sha1-rsxtKIAfZMYesEQHzzpUdtomsMA=
 
 vue-eslint-parser@^5.0.0:
   version "5.0.0"
@@ -8603,10 +8598,10 @@ vue-property-decorator@^8.3.0:
   dependencies:
     vue-class-component "^7.1.0"
 
-vue-router@^3.1.3:
-  version "3.1.3"
-  resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.1.3.tgz#e6b14fabc0c0ee9fda0e2cbbda74b350e28e412b"
-  integrity sha1-5rFPq8DA7p/aDiy72nSzUOKOQSs=
+vue-router@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.1.5.tgz?cache=0&sync_timestamp=1579092528417&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-3.1.5.tgz#ff29b8a1e1306c526b52d4dc0532109f16c41231"
+  integrity sha1-/ym4oeEwbFJrUtTcBTIQnxbEEjE=
 
 vue-style-loader@^4.1.0:
   version "4.1.2"
